@@ -1,0 +1,11 @@
+node_modules
+.husky
+.next
+public
+
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+**/*.svg
+**/*.sh
+**/*.min.css

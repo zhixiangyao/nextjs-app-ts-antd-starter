@@ -1,0 +1,52 @@
+{
+  "name": "nextjs-app-ts-antd-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8099",
+    "build": "next build",
+    "start": "next start -p 8099",
+    "------- 🌕 FORMAT -------": "",
+    "lint:check": "next lint",
+    "lint:all": "npm run lint:eslint && npm run lint:prettier && npm run lint:stylelint",
+    "lint:prettier": "prettier --cache --write --loglevel warn \"src/**/*.{js,json,tsx,css,html,md}\"",
+    "lint:eslint": "eslint --fix \"src/**/*.{ts,tsx}\" --cache --cache-location node_modules/.cache/eslint/",
+    "lint:stylelint": "stylelint --fix \"src/**/*.css\" --cache --cache-location node_modules/.cache/stylelint/"
+  },
+  "dependencies": {
+    "@ant-design/icons": "5.1.4",
+    "antd": "5.6.2",
+    "clsx": "1.2.1",
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zustand": "4.3.8"
+  },
+  "devDependencies": {
+    "@ant-design/cssinjs": "1.10.1",
+    "@ant-design/static-style-extract": "1.0.1",
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "@typescript-eslint/eslint-plugin": "5.60.0",
+    "@typescript-eslint/parser": "5.60.0",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "postcss": "8.4.24",
+    "prettier": "2.8.8",
+    "stylelint": "15.9.0",
+    "stylelint-config-standard": "33.0.0",
+    "stylelint-order": "6.0.3",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  },
+  "packageManager": "pnpm@8.5.1",
+  "engines": {
+    "node": ">=16"
+  }
+}
