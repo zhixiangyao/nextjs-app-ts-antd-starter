@@ -1,7 +1,12 @@
 {
   "name": "nextjs-app-ts-antd-starter",
   "version": "0.1.0",
-  "private": true,
+  "author": "zhixiangyao <blueskyzx@icloud.com> <https://github.com/zhixiangyao>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhixiangyao/nextjs-app-ts-antd-starter.git"
+  },
+  "homepage": "https://github.com/zhixiangyao/nextjs-app-ts-antd-starter",
   "scripts": {
     "dev": "next dev -p 8099",
     "build": "next build",
