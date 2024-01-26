@@ -43,7 +43,7 @@ const RootLayout: React.FC<Props> = ({ children }) => {
         collapsible
         onCollapse={setCollapsed}
         trigger={
-          <div className="flex justify-center items-center h-full">
+          <div className="flex h-full items-center justify-center">
             {collapsed ? <RightOutlined /> : <LeftOutlined />}
           </div>
         }
@@ -64,8 +64,7 @@ const RootLayout: React.FC<Props> = ({ children }) => {
           open={menuOpened}
           width={250}
           getContainer={false}
-          maskStyle={{ background: 'none', visibility: 'visible' }}
-          bodyStyle={{ padding: 0 }}
+          styles={{ mask: { background: 'none', visibility: 'visible' }, body: { padding: 0 } }}
           onClose={handleCloseAppMenu}
         >
           <div className="flex items-center justify-between">

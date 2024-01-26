@@ -1,29 +1,19 @@
 {
   "root": true,
-  "plugins": [
-    "stylelint-order"
-  ],
-  "extends": [
-    "stylelint-config-standard"
-  ],
+  "plugins": ["stylelint-order"],
+  "extends": ["stylelint-config-standard"],
   "rules": {
     "selector-class-pattern": null,
     "selector-pseudo-class-no-unknown": [
       true,
       {
-        "ignorePseudoClasses": [
-          "global"
-        ]
+        "ignorePseudoClasses": ["global"]
       }
     ],
     "at-rule-no-unknown": [
       true,
       {
-        "ignoreAtRules": [
-          "tailwind",
-          "mixin",
-          "apply"
-        ]
+        "ignoreAtRules": ["tailwind", "mixin", "apply"]
       }
     ],
     "no-empty-source": null,
@@ -33,16 +23,10 @@
     "rule-empty-line-before": [
       "always",
       {
-        "ignore": [
-          "after-comment",
-          "first-nested"
-        ]
+        "ignore": ["after-comment", "first-nested"]
       }
     ],
-    "unit-no-unknown": [
-      true,
-      {}
-    ],
+    "unit-no-unknown": [true, {}],
     "order/properties-order": [
       "content",
       "position",
@@ -197,9 +181,5 @@
       "speak"
     ]
   },
-  "ignoreFiles": [
-    "**/*.tsx",
-    "**/*.js",
-    "**/*.ts"
-  ]
+  "ignoreFiles": ["**/*.tsx", "**/*.js", "**/*.ts"]
 }
