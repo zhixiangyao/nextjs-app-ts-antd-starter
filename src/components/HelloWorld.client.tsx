@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-export default function HelloWorld() {
+const HelloWorld = () => {
   const [state, setState] = useState(0)
 
   return (
@@ -11,3 +11,5 @@ export default function HelloWorld() {
     </div>
   )
 }
+
+export { HelloWorld }

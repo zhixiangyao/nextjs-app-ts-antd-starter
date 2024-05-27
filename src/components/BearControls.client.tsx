@@ -2,7 +2,7 @@
 
 import useBearStore from '@/store/useBearStore'
 
-export default function BearControls() {
+const BearControls = () => {
   const increasePopulation = useBearStore((state) => state.increasePopulation)
 
   return (
@@ -11,3 +11,5 @@ export default function BearControls() {
     </button>
   )
 }
+
+export { BearControls }

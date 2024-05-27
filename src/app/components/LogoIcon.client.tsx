@@ -1,3 +1,5 @@
+'use client'
+
 type Props = { fill?: string }
 
 const LogoIcon: React.FC<Props> = ({ fill }) => {

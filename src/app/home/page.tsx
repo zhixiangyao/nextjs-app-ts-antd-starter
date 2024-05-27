@@ -1,8 +1,6 @@
-'use client'
-
-import BearCounter from '@/components/BearCounter.client'
-import HelloWorld from '@/components/HelloWorld.client'
-import { Button } from '@/components/ui/button'
+import { BearCounter } from '@/components/BearCounter.client'
+import { HelloWorld } from '@/components/HelloWorld.client'
+import { Button } from '@/components/ui/button.client'
 
 export default function Home() {
   return (
